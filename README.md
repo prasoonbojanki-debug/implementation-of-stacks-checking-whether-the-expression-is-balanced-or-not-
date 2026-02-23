@@ -37,7 +37,6 @@ int check_balanced(char*s){
 			push(s[i]);
 		if(s[i]==']' || s[i]==')' || s[i]=='}'){
 			if(isempty()){
-
 				printf("unbalanced expression");
 				return 0;
 			}
